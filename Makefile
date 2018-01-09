@@ -1,6 +1,7 @@
 .PHONY: codereview
 
 test:
+	dep ensure
 	go test
 
 codereview:
