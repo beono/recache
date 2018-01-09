@@ -8,6 +8,8 @@
 This is an experimental library.
 It has a simple interface that lets you to cache data using redis and invalidate cache by tags.
 
+If you are not familiar with invalidation by tags, then I suggest you reading this article https://symfony.com/blog/new-in-symfony-3-2-tagged-cache.
+
 ## How to use
 
 ```go
