@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	cl  *redis.Client
+	cl    *redis.Client
 	cache RedisCache
 )
 
